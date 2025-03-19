@@ -1,0 +1,27 @@
+import java.util.Arrays;
+
+public class StringClass {
+	public static void main (String args[]) {
+		String name ="S vihasini";
+		String  obj = new String("Vihasini");
+		//System.out.println(name==obj);
+		//System.out.println(name.equals(obj));//string method
+		//System.out.println(name.toLowerCase());//lowercase method
+		//System.out.println(name.toUpperCase());
+		//char b =name.charAt(0);
+		//System.out.println(name.charAt(0));
+		//System.out.println(b);
+		//System.out.println(name.indexOf('i'));//indexof starting
+		//System.out.println(name.lastIndexOf('i'));//last 
+		//System.out.println(name.substring(0,3));//starting index 
+		//char [] a=name.toCharArray();
+		//System.out.println(name.toCharArray());
+		//System.out.println(a);
+		//System.out.println(name.split("a"));
+		//String []d=name.split("");
+		//System.out.println(Arrays.toString(d));
+		//System.out.println(name.trim());
+		System.out.println(name.isBlank());
+		System.out.println(name.isEmpty());
+		System.out.println(name.replace("S vihasini","Angel"));
+	}
